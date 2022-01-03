@@ -1,0 +1,14 @@
+.kbnTopNavMenu {
+  button:last-child {
+    margin-right: 0;
+  }
+}
+
+.kbnTopNavMenu__badgeWrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.kbnTopNavMenu__badgeGroup {
+  margin-right: $euiSizeM;
+}
