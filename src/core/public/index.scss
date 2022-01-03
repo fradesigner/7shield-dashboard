@@ -5,3 +5,108 @@
 @import './overlays/index';
 @import './rendering/index';
 @import './styles/index';
+
+
+.euiHeaderLogo img {
+    width: 80%;
+}
+
+.euiHeaderLogo {
+    padding-left: 8px;
+    padding-right: 8px;
+    min-width: 40px;
+    width: 200px;
+}
+
+.euiHeader.euiHeader--default.euiHeader--fixed.header__secondBar {
+    background: #d82a41;
+}
+
+.euiHeaderBreadcrumbs .euiBreadcrumb__content {
+    color: #DFE5EF;
+}
+
+.euiButton--primary.euiButton--fill {
+    background-color: #d82a41 !important;
+    border-color: #d82a41 !important;
+    color: #000;
+}
+
+.euiHeaderBreadcrumbs .euiBreadcrumb__content {
+    color: #DFE5EF;
+    background-color: #1d1e24;
+}
+
+.euiButtonEmpty--primary {
+    color: #d82a41 !important;
+}
+
+.euiButton--primary {
+    color: #dfe5ee;
+    background-color: #d82a41;
+}
+
+.euiIcon--app {
+    fill: #d82a41;
+}
+
+.homSolutions .euiPanel.euiPanel--plain {
+    background-color: #dfe5ee !important;
+    color: #131519;
+}
+
+.euiIcon--app .euiIcon__fillSecondary {
+    fill: #141216;
+}
+.euiTitle--small {
+    color: #131519;
+}
+.euiPanel.euiPanel--plain {
+    background-color: #131519 !important;
+}
+.euiTable {
+    background-color: #131519 !important;
+}
+
+.euiLink.euiLink--primary {
+    color: #d82a41 !important;
+}
+.euiHeaderLinks.kbnTopNavMenu button.euiButtonEmpty.euiButtonEmpty--primary.euiButtonEmpty--small.euiHeaderLink {
+    background: #141216;
+}
+
+.euiHeaderLinks.kbnTopNavMenu .euiButtonEmpty .euiButtonEmpty__text {
+    color: #dfe5ee;
+}
+
+.euiButton[data-test-subj="dashboardEditMode"] {
+    background: #dfe5ee !important;
+}
+.euiHeaderBreadcrumbs .euiBreadcrumb__content.euiLink {
+    color: #141216;
+    background-color: #dfe5ee;
+}
+
+.kbnLoaderWrap svg {
+    width: 160px;
+}
+button.euiButton.euiButton--primary.euiButton--small.euiButton--fill.euiButton-isDisabled {
+    background: #8b898a !important;
+    color: #383838;
+}
+
+.euiButton--primary:not([class*='isDisabled']):hover, 
+.euiButton--primary:not([class*='isDisabled']):focus {
+    background-color: #202020 !important;
+}
+
+.euiButton .euiButton__content,
+.euiButton .euiButton__content:hover,
+.euiButton .euiButton__content:focus {
+    text-decoration: none !important;
+}
+
+button.euiHeaderSectionItemButton[aria-label="Help menu"],
+button.euiHeaderSectionItemButton[data-test-subj="newsfeed"] {
+    display: none;
+}
