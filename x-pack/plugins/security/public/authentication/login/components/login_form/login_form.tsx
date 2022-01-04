@@ -35,7 +35,7 @@ import type { HttpStart, IHttpFetchError, NotificationsStart } from 'src/core/pu
 
 import type { LoginSelector, LoginSelectorProvider } from '../../../../../common/login_state';
 import { LoginValidator } from './validate_login';
-
+import logo from '../../../../../../../../src/core/public/chrome/ui/header/images/logo-login.png';
 export interface LoginFormProps {
   http: HttpStart;
   notifications: NotificationsStart;
@@ -212,6 +212,7 @@ export class LoginForm extends Component<LoginFormProps, State> {
 
     return (
       <EuiPanel data-test-subj="loginForm">
+        <img src={logo} alt="Logo 7Shield" />
         <form onSubmit={this.submitLoginForm}>
           <EuiFormRow
             label={

@@ -16,6 +16,7 @@ import { ChromeNavLink } from '../..';
 import { ElasticMark } from './elastic_mark';
 import { HttpStart } from '../../../http';
 import { LoadingIndicator } from '../loading_indicator';
+import logo from './images/7shield-logo.png';
 
 function findClosestAnchor(element: HTMLElement): HTMLAnchorElement | void {
   let current = element;
@@ -99,8 +100,7 @@ export function HeaderLogo({ href, navigateToApp, loadingCount$, ...observables 
         defaultMessage: 'Elastic home',
       })}
     >
-      <LoadingIndicator loadingCount$={loadingCount$!} />
-      <ElasticMark className="chrHeaderLogo__mark" aria-hidden={true} />
+      <img src={logo} alt="Logo 7Shield" />
     </a>
   );
 }

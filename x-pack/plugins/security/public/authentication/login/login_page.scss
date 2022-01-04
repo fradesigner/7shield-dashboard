@@ -27,3 +27,24 @@
     max-width: 700px;
   }
 }
+.loginWelcome::before {
+  display: none;
+}
+.loginWelcome::after {
+  display: none;
+}
+
+.loginWelcome {
+  background: url(../../../../../../src/core/public/chrome/ui/header/images/bg-7shield.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.euiPanel.euiPanel--plain {
+    background-color: #ffffffd4 !important;
+    margin: 100px auto;
+    width: 400px;
+    text-align: center;
+}
+

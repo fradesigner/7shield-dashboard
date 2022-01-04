@@ -5,10 +5,11 @@
 @import './overlays/index';
 @import './rendering/index';
 @import './styles/index';
+@import './styles/7shield.css';
 
 
 .euiHeaderLogo img {
-    width: 80%;
+    width: auto;
 }
 
 .euiHeaderLogo {
@@ -18,8 +19,14 @@
     width: 200px;
 }
 
+
+
+.euiPage {
+    background-color: #1d1e24;
+}
+
 .euiHeader.euiHeader--default.euiHeader--fixed.header__secondBar {
-    background: #d82a41;
+    background: #28bb91;
 }
 
 .euiHeaderBreadcrumbs .euiBreadcrumb__content {
@@ -27,8 +34,8 @@
 }
 
 .euiButton--primary.euiButton--fill {
-    background-color: #d82a41 !important;
-    border-color: #d82a41 !important;
+    background-color: #28bb91 !important;
+    border-color: #28bb91 !important;
     color: #000;
 }
 
@@ -38,7 +45,7 @@
 }
 
 .euiButtonEmpty--primary {
-    color: #d82a41 !important;
+    color: #27bb91 !important;
 }
 
 .euiButton--primary {
@@ -69,7 +76,7 @@
 }
 
 .euiLink.euiLink--primary {
-    color: #d82a41 !important;
+    color: #27bb91 !important;
 }
 .euiHeaderLinks.kbnTopNavMenu button.euiButtonEmpty.euiButtonEmpty--primary.euiButtonEmpty--small.euiHeaderLink {
     background: #141216;
@@ -95,7 +102,7 @@ button.euiButton.euiButton--primary.euiButton--small.euiButton--fill.euiButton-i
     color: #383838;
 }
 
-.euiButton--primary:not([class*='isDisabled']):hover, 
+.euiButton--primary:not([class*='isDisabled']):hover,
 .euiButton--primary:not([class*='isDisabled']):focus {
     background-color: #202020 !important;
 }

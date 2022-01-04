@@ -53,7 +53,7 @@ const loginFormMessages: Record<LogoutReason, NonNullable<LoginFormProps['messag
   LOGGED_OUT: {
     type: LoginFormMessageType.Info,
     content: i18n.translate('xpack.security.login.loggedOutDescription', {
-      defaultMessage: 'You have logged out of Elastic.',
+      defaultMessage: 'You have logged out of 7Shield.',
     }),
   },
   UNAUTHENTICATED: {
@@ -106,19 +106,6 @@ export class LoginPage extends Component<Props, State> {
       <div className="loginWelcome login-form">
         <header className="loginWelcome__header">
           <div className={contentHeaderClasses}>
-            <EuiSpacer size="xxl" />
-            <span className="loginWelcome__logo">
-              <EuiIcon type="logoElastic" size="xxl" />
-            </span>
-            <EuiTitle size="m" className="loginWelcome__title">
-              <h1>
-                <FormattedMessage
-                  id="xpack.security.loginPage.welcomeTitle"
-                  defaultMessage="Welcome to Elastic"
-                />
-              </h1>
-            </EuiTitle>
-            <EuiSpacer size="xl" />
           </div>
         </header>
         <div className={contentBodyClasses}>
