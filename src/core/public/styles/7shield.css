@@ -22,3 +22,9 @@
 .euiAvatar--s {
     background: white !important;
 }
+.euiTitle--small {
+    color: #ffffff;
+}
+.homSolutions .euiTitle--small {
+    color: #1d1e24;
+}
